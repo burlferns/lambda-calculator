@@ -26,9 +26,15 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 
         <Display  result={resultState} />
-        <Specials />
-        <Operators />
-        <Numbers />
+
+        <div className="allBtns">
+          <div className="specialsAndNumbers">
+            <Specials />
+            <Numbers />
+          </div>
+          <Operators />
+        </div>
+
 
       </div>
     </div>

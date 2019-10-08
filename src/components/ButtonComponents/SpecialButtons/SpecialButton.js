@@ -5,8 +5,8 @@ const SpecialButton = ( {buttonSymbol} ) => {
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
 
-      <button >
-        <span role="img" aria-label="special buttons">
+      <button className="specialBtns">
+        <span role="img" aria-label="special buttons" >
         {buttonSymbol}
         </span>
       </button>
